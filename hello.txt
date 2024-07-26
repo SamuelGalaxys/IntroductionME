@@ -4,12 +4,13 @@ Hello!
 
 my name is dk!!
 
-
-
+def sum(a,b):
+  sum = a+b
+  return sum
 
 def differ(a,b): # 차이 함수
     ''' 해당 함수는 a,b 두개의 인자를 받아서 두 개의 차이를 내보내는 함수 ''' 
     return a-b
 
 Bye
-456
+
