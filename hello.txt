@@ -4,8 +4,19 @@ Hello!
 
 
 
-
+my name is dk!!
 
 
 
 Bye
+
+## 이제부터 더하기 빼기 함수를 만들어보자
+
+def make_sum(a,b):
+    return a+b 
+
+
+
+
+
+
