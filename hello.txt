@@ -4,8 +4,9 @@ Hello!
 
 my name is dk!!
 
-
-
+def sum(a,b):
+  sum = a+b
+  return sum
 
 
 
