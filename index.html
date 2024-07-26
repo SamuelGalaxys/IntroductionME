@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="profile1.jpg" alt="Profile 1" class="profile-img">
+            <button class="popup-btn" data-message="Hello from Profile 1!">Show Popup</button>
+        </div>
+        <div class="card">
+            <img src="profile2.jpg" alt="Profile 2" class="profile-img">
+            <button class="popup-btn" data-message="Hello from Profile 2!">Show Popup</button>
+        </div>
+        <div class="card">
+            <img src="profile3.jpg" alt="Profile 3" class="profile-img">
+            <button class="popup-btn" data-message="Hello from Profile 3!">Show Popup</button>
+        </div>
+    </div>
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="popup-message"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
